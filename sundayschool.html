@@ -1,0 +1,99 @@
+<DOCTYPE html>
+    <html>
+       <head>
+           <meta name="viewport" content="with=device-width, initial-scale=1.0">
+           <link rel="stylesheet" href="style.css">
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+           <title>Ministry</title>
+       </head>
+       <body>
+      
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="img\logo.png" alt="logo" width="300px"></a>
+                <div class="nav-links" id="navLinks">
+                 <i class="fa fa-times" style="color: black;" onclick="hideMenu()"></i>
+                   <ul>
+                       <li><a href="history.html">HISTORY</a></li>
+                       <li><a href="about.html">ABOUT</a></li>
+                       <li><a href="ministry.html">MINISTRY</a></li>
+                       <li><a href="boardof.html">BOARD OF DIRECTORS</a></li>
+                       <li><a href="contact.html">CONTACT</a></li>
+                   </ul> 
+                </div>
+                <i class="fa fa-bars" style="color: black;" onclick="showMenu()"></i>
+            </nav>
+            
+        <h1>ORGANIZATION</h1>
+        </section>
+
+        <section class="links">
+
+            <ul>
+                <li><a href="sundayschool.html">Sunday School</a></li>
+                <li><a href="#">Youth Movement</a></li>
+                <li><a href="#">Choir</a></li>
+                <li><a href="#">Wemen's Fellowship</a></li>    
+            </ul>
+
+        </section>
+
+        <section class="about-content">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1>Sunday School</h1><br>
+                    <div>
+                    <span>“ Start children off on the way, they should go, and even when they are old they will 
+                        not turn from it”.<br>
+                        <b>Proverbs 22:6</b></span><br><br>
+                    </div>
+                    <p>Sunday school is a prerequisite in every church to bring up our young ones in the 
+                        light of the word of God. We wish to sow seeds of faith into the hearts of our children.
+                        Our church yearns for children who crave God’s love.<br>
+                        To watch our children grow into fruitful vines is all we aspire.
+                        We truly believe that no child should be left behind, no matter where they are 
+                        from. It’s our goal to help each child affirm his or her faith in our Lord and Saviour Jesus 
+                        Christ.<br>
+                        And as a part of the CSI congregation, we take pride in our Sunday school 
+                        movements.<br>
+                        ➢ Sunday school classes are now held online due to the current situation.
+                        Links are given through respective WhatsApp class groups.<br>
+                        ✓ Time: 4 pm – 4:45 pm</p>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>The Church of South India is a united Protestant Church, being the second-largest Christian church in India based on the number of members;<br> it is the result of union of a number of Protestant churches in South India.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Youth Movement  </p>
+        </section>
+       
+           <script>
+       
+            var navLinks = document.getElementById("navlinks");
+       
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+       
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+       
+        </script>
+        
+    </body>       
+</html>

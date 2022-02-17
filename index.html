@@ -1,0 +1,122 @@
+<DOCTYPE html>
+<html>
+   <head>
+       <meta name="viewport" content="with=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="style.css">
+       <link rel="icon" type="image/x-icon" href="img/favicon.ico.png">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       <title>St johns CSI church</title>
+   </head>
+   <body>
+  
+       <section class="header">
+           <nav>
+               <a href="index.html"><img src="img\logo.png" alt="logo" width="300px"></a>
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" style="color: black;" onclick="hideMenu()"></i>
+                  <ul>
+                      <li><a href="history.html">HISTORY</a></li>
+                      <li><a href="about.html">ABOUT</a></li>
+                      <li><a href="ministry.html">MINISTRY</a></li>
+                      <li><a href="boardof.html">BOARD OF DIRECTORS</a></li>
+                      <li><a href="contact.html">CONTACT</a></li>
+                  </ul> 
+               </div>
+               <i class="fa fa-bars" style="color: black;" onclick="showMenu()"></i>
+           </nav>
+           <div class="text-box">
+               
+               <h1>THAT THEY ALL MAY BE ONE</h1>
+               <p>WELCOME TO CHURCH OF SOUTH INDIA</p>
+               <a href="aboutthechurch.html" class="hero-btn">To know More...!</a>
+
+           </div>
+
+       </section>
+
+       <section class="middle">
+           <h1>CSI MEANS</h1>
+           <p>The Church of South India (CSI) is the result of the union of churches of varying traditions Anglican, Methodist, Congregational, Presbyterian, and Reformed.</p>
+
+           <div class="row">
+               <div class="mid-col">
+                   <h3>VISION</h3>
+                   <p>As part of the church universal affirms that it exists to fulfill the prayer of Jesus Christ, the Lord of the Church, "That they all may be one and the world may believe that you have sent me"</p>
+               </div>
+               <div class="mid-col">
+                    <h3>MISSION</h3>
+                    <p>To develop a Christ centered life by connecting people through word of God, oneness and worship; inculcation Christian values and helping the broken communities with a new hope, and leading each and every one to walk in the paths of love and righteousness</p>
+               </div>
+               <div class="mid-col">
+                     <h3>AFFILIATION</h3>
+                     <p>St Johns CSI Church is affiliated with the East Kerala Diocese(EKD) of the Church of South India.</p>
+               </div>
+
+           </div>
+
+       </section>
+
+       <section class="church">
+           <h1>Our Church</h1>
+           <p>That they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us: that the world may believe that thou hast sent me.</p>
+
+           <div class="row">
+               <div class="church-col">
+                   <img src="img\outside.jpeg">
+                   <div class="layer">
+                       <h3>OUTSIDE</h3>
+                   </div>
+               </div>
+
+               <div class="church-col">
+                <img src="img\inside.jpeg">
+                <div class="layer">
+                    <h3>INSIDE</h3>
+                </div>
+            </div>
+
+               <div class="church-col">
+                <img src="img\sideview.jpeg">
+                <div class="layer">
+                    <h3>SIDEVIEW</h3>
+                </div>
+            </div>
+           </div>
+       </section>
+
+       <section class="footer">
+           <h4>About Us</h4>
+           <p>The Church of South India is a united Protestant Church, being the second-largest Christian church in India based on the number of members;<br> it is the result of union of a number of Protestant churches in South India.</p>
+           <div class="icons">
+               <i class="fa fa-facebook"></i>
+               <i class="fa fa-twitter"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-youtube"></i>
+           </div>
+           <p>Made with <i class="fa fa-heart-o"></i> by Youth Movement  </p>
+       </section>
+
+
+ 
+
+
+                          <!---JavaScript--->
+       <script>
+
+           var navLinks = document.getElementById("navlinks");
+
+           function showMenu(){
+               navLinks.style.right = "0";
+           }
+
+           function hideMenu(){
+               navLinks.style.right = "-200px";
+           }
+
+       </script>
+
+   </body> 
+</html>

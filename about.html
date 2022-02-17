@@ -1,0 +1,87 @@
+<DOCTYPE html>
+    <html>
+       <head>
+           <meta name="viewport" content="with=device-width, initial-scale=1.0">
+           <link rel="stylesheet" href="style.css">
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+           <title>About</title>
+       </head>
+       <body>
+      
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="img\logo.png" alt="logo" width="300px"></a>
+                <div class="nav-links" id="navLinks">
+                 <i class="fa fa-times" style="color: black;" onclick="hideMenu()"></i>
+                   <ul>
+                       <li><a href="history.html">HISTORY</a></li>
+                       <li><a href="about.html">ABOUT</a></li>
+                       <li><a href="ministry.html">MINISTRY</a></li>
+                       <li><a href="boardof.html">BOARD OF DIRECTORS</a></li>
+                       <li><a href="contact.html">CONTACT</a></li>
+                   </ul> 
+                </div>
+                <i class="fa fa-bars" style="color: black;" onclick="showMenu()"></i>
+            </nav>
+            
+        <h1>ABOUT</h1>
+        </section>
+
+        <section class="links">
+
+            <ul>
+                <li><a href="aboutthechurch.html">About the Church</a></li>
+                <li><a href="servicetime.html">Time Schedule</a></li>
+                <li><a href="">Resources</a></li>
+                <li><a href="">Future Project</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+
+        </section>
+<!----------------------about content-------------------------------------->
+        <section class="about-content">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1>Church Of South India</h1>
+                    <p>The Church of South India is the successor of a number of Protestant denominations in India, including the Church of England, Church of India, Burma and Ceylon (Anglican), the United Church of Christ (Congregationalist), the British Methodist Church and the Church of Scotland after Indian Independence. It combined the South India United Church (union of the British Congregationalists and the British Presbyterians); the then 14 Anglican Dioceses of South India and one in Sri Lanka; and the South Indian District of the Methodist church. With a membership of nearly four million, CSI is one of four united Protestant churches in the Anglican Communion, the others being the Church of North India, the Church of Pakistan and the Church of Bangladesh; it also is a member of the World Methodist Council and World Communion of Reformed Churches.</p>
+                </div>
+                <div class="about-col">
+                    <img src="img/Church_of_South_India.png" alt="img">
+                </div>
+            </div>
+
+        </section>
+
+    
+
+    <section class="footer">
+     <h4>About Us</h4>
+     <p>The Church of South India is a united Protestant Church, being the second-largest Christian church in India based on the number of members;<br> it is the result of union of a number of Protestant churches in South India.</p>
+     <div class="icons">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-youtube"></i>
+     </div>
+     <p>Made with <i class="fa fa-heart-o"></i> by Youth Movement  </p>
+ </section>
+
+    <script>
+
+     var navLinks = document.getElementById("navlinks");
+
+     function showMenu(){
+         navLinks.style.right = "0";
+     }
+
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+     }
+
+ </script>
+</body>       
+</html>
